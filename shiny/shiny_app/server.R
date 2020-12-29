@@ -1,3 +1,4 @@
+sapply(c('dplyr','shiny','shinydashboard','ggplot2', 'shinycssloaders', 'DT'), require, character.only = T)
 # 2. Load Body server -----------------------------------------------------
 
 server = function(input,output){
